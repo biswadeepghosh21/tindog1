@@ -1,0 +1,152 @@
+body {
+  font-family: "montserrat", sans-serif;
+  font-weight: bold;
+}
+
+#title {
+  background-color: #ff4c68;
+}
+h1 {
+  font-family: "montserrat", sans-serif;
+  font-size: 3rem;
+  line-height: 1.5;
+  font-weight: bold;
+  color: white;
+  padding-bottom: 4rem;
+}
+h2 {
+  font-family: " montserrat-bold";
+  font-weight: bolder;
+  size: 2rem;
+  line-height: 1.5;
+}
+h3 {
+  font-family: "montserrat-bold", sans-serif;
+  font-weight: bolder;
+  size: 1.5rem;
+}
+.container-fluid {
+  padding: 3% 15% 7%;
+}
+
+.navbar-brand {
+  font-size: 1.8rem;
+  font-family: "Ubuntu", sans-serif;
+}
+.navbar navbar-expand-lg navbar-dark {
+  padding-left: 0%;
+  padding-right: 0%;
+}
+
+.nav-item {
+  padding: 0 1rem;
+  font-size: 1.5rem;
+  font-weight: lighter;
+  padding-bottom: 3rem;
+}
+
+.image1 {
+  width: 60%;
+  transform: rotate(25deg);
+  position: absolute;
+  right: 30%;
+}
+#features {
+  padding: 7% 15%;
+  background-color: white;
+  position: relative;
+  z-index: 1;
+}
+.featurebox {
+  padding: 5%;
+  line-height: 2;
+  text-align: center;
+}
+p {
+  color: #8f8f8f;
+}
+.icon {
+  color: #ef8172;
+  margin-bottom: 1rem;
+}
+.icon:hover {
+  color: #ff4c68;
+}
+
+#testimonials {
+  text-align: center;
+  background-color: #ef8172;
+  color: white;
+}
+.img2 {
+  width: 10%;
+  border-radius: 100%;
+  margin-right: 2rem;
+}
+
+#press {
+  text-align: center;
+  background-color: #ef8172;
+}
+.press-img {
+  width: 15%;
+  padding: 2rem 1rem;
+}
+
+.testimonial-image2 {
+  width: 10%;
+  border-radius: 100%;
+  margin-right: 2rem;
+}
+
+.carousel-item {
+  padding: 7% 15%;
+}
+
+#pricing {
+  padding: 100px;
+  text-align: center;
+}
+
+.price1 {
+  padding: 2% 3%;
+
+  border: teal 3px solid;
+}
+.price-card {
+  border: turquoise 3px solid;
+}
+
+@media (max-width: 991px) {
+  #title {
+    text-align: center;
+  }
+
+  .image1 {
+    position: static;
+    transform: rotate(0);
+  }
+}
+
+#cta {
+  background-color: #ff4c68;
+  text-align: center;
+  padding: 10rem 2rem;
+  color: #fff;
+}
+.cta-txt {
+  font-family: " montserrat-black";
+  font-size: 3rem;
+}
+.btn10{
+  margin: 1rem 0.5rem;
+}
+#footer{
+  background-color: white;
+  text-align: center;
+  padding: 8rem 2rem;
+}
+.icon4{
+  padding: 0.5rem 1rem;
+  margin-bottom: 1rem;
+}
